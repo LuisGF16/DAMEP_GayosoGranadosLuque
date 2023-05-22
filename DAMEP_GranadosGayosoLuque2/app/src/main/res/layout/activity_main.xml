@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2023_05_22_at_14_57_17"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="167dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="179dp"
+        android:layout_width="259dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
         android:text="Censo DAM 2023"
         android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,6 +30,7 @@
         android:layout_marginStart="32dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="@+id/textView2" />
@@ -39,6 +42,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="15dp"
         android:text="Apellidos y Nombres:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -48,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="Formulario de Registro"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -57,6 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Correo Electronico:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -66,6 +72,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
         app:layout_constraintTop_toTopOf="@+id/textView4" />
@@ -76,6 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Clave:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -85,6 +93,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress4"
         app:layout_constraintTop_toTopOf="@+id/textView5" />
@@ -95,6 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Telefono de Contacto:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -104,6 +114,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="phone"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toTopOf="@+id/textView6" />
@@ -114,6 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Fecha de Nacimiento:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -123,6 +135,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="date"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="@+id/editTextPhone"
         app:layout_constraintTop_toTopOf="@+id/textView9" />
@@ -133,6 +146,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Hora de Nacimiento:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -142,6 +156,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="time"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="@+id/editTextDate"
         app:layout_constraintTop_toTopOf="@+id/textView10" />
@@ -152,6 +167,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Zona de Residencia:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -166,13 +182,15 @@
             android:id="@+id/radioButton_Urbano"
             android:layout_width="match_parent"
             android:layout_height="29dp"
-            android:text="@string/radiobuton_Urbano" />
+            android:text="@string/radiobuton_Urbano"
+            android:textColor="@color/white" />
 
         <RadioButton
             android:id="@+id/radioButton_Rural"
             android:layout_width="match_parent"
             android:layout_height="31dp"
-            android:text="@string/radiobuton_Rural" />
+            android:text="@string/radiobuton_Rural"
+            android:textColor="@color/white" />
     </RadioGroup>
 
     <TextView
@@ -181,6 +199,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="¿Cuantas personas viven en la vivienda?"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/radioGroup"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
@@ -191,6 +210,7 @@
         android:layout_marginStart="30dp"
         android:ems="10"
         android:inputType="number"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView12"
         app:layout_constraintStart_toEndOf="@+id/textView12"
         app:layout_constraintTop_toTopOf="@+id/textView12"
@@ -202,6 +222,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Ingreso de Sueldo Priomedio de la Familia:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView12"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -209,12 +230,14 @@
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="77dp"
         android:layout_height="35dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-        app:layout_constraintTop_toTopOf="@+id/textView13" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
     <TextView
         android:id="@+id/textView14"
@@ -222,6 +245,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="¿Que opina sobre los bonos otorgados por el gobierno?"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView13"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -232,6 +256,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView14"
         app:layout_constraintStart_toStartOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
@@ -242,6 +267,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Mascotas que viven en casa:"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
 
@@ -250,6 +276,7 @@
         android:layout_width="102dp"
         android:layout_height="32dp"
         android:text="@string/ckeckbox_perro"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/checkBox_gato"
         app:layout_constraintTop_toBottomOf="@+id/checkBox_gato" />
 
@@ -258,6 +285,7 @@
         android:layout_width="102dp"
         android:layout_height="32dp"
         android:text="@string/checkBox_Gato"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -266,6 +294,7 @@
         android:layout_width="102dp"
         android:layout_height="32dp"
         android:text="@string/ckeckbox_Pollo"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/checkBox_Perro"
         app:layout_constraintTop_toBottomOf="@+id/checkBox_Perro" />
 
@@ -274,6 +303,7 @@
         android:layout_width="102dp"
         android:layout_height="32dp"
         android:text="@string/ckeckbox_Pato"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="@+id/checkBox_Pollo"
         app:layout_constraintTop_toBottomOf="@+id/checkBox_Pollo" />
 
@@ -282,15 +312,29 @@
         android:layout_width="102dp"
         android:layout_height="32dp"
         android:text="@string/ckeckbox_Otro"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/checkBox_gato"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/inei" />
+
     <Button
-        android:id="@+id/button_enviardatos"
+        android:id="@+id/button_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@drawable/baseline_send_24"
         android:text="@string/buton_enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
