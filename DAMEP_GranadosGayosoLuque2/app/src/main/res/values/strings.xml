@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DAMEP_GranadosGayosoLuque</string>
+    <string name="buton_enviar">Enviar Datos</string>
+    <string name="radiobuton_Urbano">Urbano</string>
+    <string name="radiobuton_Rural">Rural</string>
+    <string name="checkBox_Gato">Gato</string>
+    <string name="ckeckbox_perro">Perro</string>
+    <string name="ckeckbox_Pollo">Pollo</string>
+    <string name="ckeckbox_Pato">Pato</string>
+    <string name="ckeckbox_Otro">Otro</string>
+</resources>
